@@ -1,10 +1,10 @@
 import express from "express"
-import notesRoutes from "./routes/notesRouters.js";
+import notesRoutes from "./routes/notesRoutes.js";
 // const express = require("express");
 
 const app = express();
 
-app.use("/api/notes", noteRoutes);
+app.use("/api/notes", notesRoutes);
  
 
 // app.get("/api/notes", (req, res) => {
